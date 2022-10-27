@@ -245,6 +245,7 @@ def code_action(params: lsp.CodeActionParams) -> List[lsp.CodeAction]:
         "C0301:line-too-long",
         "C0303:trailing-whitespace",
         "C0305:trailing-newlines",
+        "C0410:multiple-imports",
     ]
 )
 def fix_format(

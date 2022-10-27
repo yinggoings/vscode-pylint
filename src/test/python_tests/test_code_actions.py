@@ -48,6 +48,15 @@ LINTER = utils.get_server_info_defaults()["name"]
                 "arguments": None,
             },
         ),
+        (
+            "C0410:multiple-imports",
+            "import os, sys",
+            {
+                "title": f"{LINTER}: Run document formatting",
+                "command": "editor.action.formatDocument",
+                "arguments": None,
+            },
+        ),
     ],
 )
 def test_command_code_action(code, contents, command):
