@@ -52,7 +52,7 @@ LINTER = utils.get_server_info_defaults()["name"]
             "C0410:multiple-imports",
             "import os, sys",
             {
-                "title": f"{LINTER}: Run document formatting",
+                "title": f"{LINTER}: Run sort imports",
                 "command": "editor.action.organizeImports",
                 "arguments": None,
             },
