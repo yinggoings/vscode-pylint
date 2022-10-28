@@ -53,7 +53,7 @@ LINTER = utils.get_server_info_defaults()["name"]
             "import os, sys",
             {
                 "title": f"{LINTER}: Run document formatting",
-                "command": "editor.action.formatDocument",
+                "command": "editor.action.organizeImports",
                 "arguments": None,
             },
         ),
